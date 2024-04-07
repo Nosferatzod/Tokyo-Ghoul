@@ -13,8 +13,6 @@
 
 body{
     font-family: sans-serif;
-    /* Apply the gradient here */  
-    /* background: linear-gradient(to right, #000000, #343636); */
     background: linear-gradient(to right, #3f0000, #080808);
 }
 #main{
@@ -27,8 +25,7 @@ body{
 #divtitulo{
     background: linear-gradient(to right, #3f0000, #080808);
     font-family: Genos;
-    /* height: 80px; */
-    margin-bottom: 30px; /*empurra pro chã */
+    margin-bottom: 30px; 
     margin-top: 10px;
 }
 .titulo01{
@@ -54,11 +51,6 @@ body{
     float: left;
 }
 .menu ul{
-    /* list-style:none;
-    border:1px solid #c0c0c0;*/
-    /* float:left */
-    /* top: 23%;
-    left: 3%; */
     list-style: none;
     text-decoration: none;
     
@@ -66,11 +58,12 @@ body{
 }
 .menu li a:hover {
     background-color: #000000;
+    padding: 1px 10px;
+    border-radius: 5px;
   }
 
 li>a{
     color: rgb(255, 255, 255);
-    /* float: left;  */
     font-size: 1.4em;
     text-decoration: none;
     font-family: Genos;
@@ -139,32 +132,12 @@ li>a{
     margin:0% 0% 200% 0%;
     width: 80%;
 }
-#MangaCap2{
-    margin: 20% 0% 0% 0%;
-    width: 80%;
-}
-#MangaCap3{
-    margin: 20% 0% 0% 0%;
-    width: 80%;
-}
-#MangaCap4{
-    margin: 20% 0% 0% 0%;
-    width: 80%;
-}
 #MangaCap5{
     margin: 0% 0% 310% 0%;
     width: 80%;
 }
-#MangaCap6{
-    margin: 20% 0% 0% 0%;
-    width: 80%;
-}
 #MangaCap7{
     margin: 0% 0% 200% 0%;
-    width: 80%;
-}
-#MangaCap8{
-    margin: 20% 0% 0% 0%;
     width: 80%;
 }
 #anteiku{
