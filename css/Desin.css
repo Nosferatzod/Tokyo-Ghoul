@@ -1,0 +1,182 @@
+*{
+    margin:0;
+    padding:0;
+    border:0;
+    /* isso ja tira tudo */
+}
+.genos{
+  font-family: "Genos", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: italic;
+}
+
+body{
+    font-family: sans-serif;
+    /* Apply the gradient here */  
+    /* background: linear-gradient(to right, #000000, #343636); */
+    background: linear-gradient(to right, #3f0000, #080808);
+}
+#main{
+    text-align: center;
+}
+.box {
+    display: inline-block;
+}
+
+#divtitulo{
+    background: linear-gradient(to right, #3f0000, #080808);
+    font-family: Genos;
+    /* height: 80px; */
+    margin-bottom: 30px; /*empurra pro chã */
+    margin-top: 10px;
+}
+.titulo01{
+    color: rgb(240, 238, 255);
+    font-size: 65px;
+    text-align: center;
+    /* text-shadow: 3px 3px 10px #4b73f5; */
+    background-image: linear-gradient(to right, #ff0000, #ffffff);
+    background-size: 30% 30%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+/* #################### ESQUERDA ####################*/
+#esquerda{
+    /* background-color: #3f0000; */
+    font-family: Genos;
+    color: rgb(255, 255, 255);
+    width: 10%;
+}
+.menu ul{
+    /* list-style:none;
+    border:1px solid #c0c0c0;*/
+    /* float:left */
+    /* top: 23%;
+    left: 3%; */
+    list-style: none;
+    text-decoration: none;
+    margin: 0% 0% 1500% 0%;
+    
+    
+}
+.menu li a:hover {
+    background-color: #000000;
+  }
+
+li>a{
+    color: rgb(255, 255, 255);
+    /* float: left;  */
+    font-size: 1.4em;
+    text-decoration: none;
+    font-family: Genos;
+}
+
+/* #################### MEIO #################### */
+#meio{
+    width: 100%;
+    max-width: 850px;
+    min-width: 300px;
+    height: 100%;
+    background-color: #140606;
+    border-radius: 10px;
+}
+.titulo02{
+    color: rgb(245, 245, 245);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    padding-left: 20px;
+    font-size: 2em;
+    margin: 20px 0px 10px 0px;
+    background-image: linear-gradient(to right, #a51b1bd0, #360101be);
+    background-size: 30% 30%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.prologo{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 1.1em;
+    text-align: justify;
+    width: 90%;
+    margin: auto;
+}
+#distrito20{
+    width: 70%;
+}
+#distritos{
+    width: 80%;
+    background-color: rgba(255, 214, 195, 0.411);
+    margin: 0px 0px 0px 0px;
+    border-radius: 15px;
+}
+#aogiri{
+    width: 80%;
+    margin: 0px 0px 0px 0px;
+    min-width: 280px;
+    max-width: 800px;
+}
+
+/* #################### DIREITA #################### */
+#direita{
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+    width: 100%;
+    max-width: 290px;
+    min-width: 0px;
+}
+.direita>p{
+    border: 1px solid red;
+    /* padding: 5px 0px 5px 25px; */
+    font-size: 1.3em;
+}
+/* ACONTECER ALGO DE A LA EM CIMA ESTA MUITO ESPAÇADO È OS MANGA */
+#MangaCap1{  
+    margin:0% 0% 200% 0%;
+    width: 80%;
+}
+#MangaCap2{
+    margin: 20% 0% 0% 0%;
+    width: 80%;
+}
+#MangaCap3{
+    margin: 20% 0% 0% 0%;
+    width: 80%;
+}
+#MangaCap4{
+    margin: 20% 0% 0% 0%;
+    width: 80%;
+}
+#MangaCap5{
+    margin: 0% 0% 310% 0%;
+    width: 80%;
+}
+#MangaCap6{
+    margin: 20% 0% 0% 0%;
+    width: 80%;
+}
+#MangaCap7{
+    margin: 0% 0% 200% 0%;
+    width: 80%;
+}
+#MangaCap8{
+    margin: 20% 0% 0% 0%;
+    width: 80%;
+}
+#anteiku{
+    margin: 40px 0px 0px 0px;
+    width: 50%;
+    min-width: 320px;
+    max-width: 800px;
+    margin: auto;
+}
+.icone-pesquisa {
+    display: inline-block;
+    font-family: "Font Awesome";
+    content: "\f002";
+    font-size: 16px;
+    color: #000;
+    margin-right: 5px;
+  }
