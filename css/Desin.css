@@ -45,10 +45,13 @@ body{
 
 /* #################### ESQUERDA ####################*/
 #esquerda{
-    /* background-color: #3f0000; */
     font-family: Genos;
     color: rgb(255, 255, 255);
-    width: 10%;
+    max-width: 500px;
+    min-width: 200px;
+    background-color: #7a271c00;
+    padding: 10px;
+    float: left;
 }
 .menu ul{
     /* list-style:none;
@@ -58,7 +61,6 @@ body{
     left: 3%; */
     list-style: none;
     text-decoration: none;
-    margin: 0% 0% 1500% 0%;
     
     
 }
