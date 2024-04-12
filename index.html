@@ -5,11 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TOKYO</title>
 </head>
-<link rel="stylesheet" href="css/Desin.css">
+<link rel="stylesheet" href="/css/Desin.css">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Genos:ital@1&display=swap" rel="stylesheet">
-<link rel="shortcut icon" href="/imagem/Nome.png" type="image/x-icon">
+<link rel="shortcut icon" href="/imagem/Nome.png" type="/image/x-icon">
 <body>
     <div id="container">
     <div id="divtitulo">
@@ -25,18 +25,19 @@
 
             <h2>Navegação</h2>
             <div class="menu">
-                <nav>
+                <nav id="mainnav">
                     <ul class="menu">
                         <li><a href="#menu">Home</a></li>
-                        <li><a href="#distrito20">Districts</a></li>
-                            <ul>
+                        <li class="distrito"><a href="#">Districts ⬎</a>
+                            <ul class="dropdown">
                                 <li><a href="#Distrito20">D20</a></li>
                                 <li><a href="#Distrito11">D11</a></li>
                                 <li><a href="#Distrito13">D13</a></li>
-                                <li><a href="">D2</a></li>
+                                <li><a href="#Distrito24">D24</a></li>
                             </ul>
+                        </li>
                         <li><a href="">Organizations</a></li>   
-                        <li><a href="">Anime</a></li>
+                        <li><a href="#personagens2">Personagens</a></li>
                     </ul>
                 </nav>
             </div>
@@ -48,11 +49,11 @@
     
     
             <h1 class="titulo02">Prólogo</h1>
-            <p class="prologo">"A cidade de Tóquio é um lugar de contrastes, onde a luz e a escuridão coexistem em harmonia.É uma cidade de tecnologia avançada, mas também de tradições ancestrais. É uma cidade de contrastes, onde o mundo humano e o mundo sobrenatural se entrelaçam.            E neste mundo de contrastes, há uma criatura que habita a escuridão, um ser que se esconde da luz do sol e se move na sombra.É o Ghoul, uma espécie de ser sobrenatural que se alimenta de carne humana. Eles vivem entre nós, mas são invisíveis aos olhos humanos. Mas há um homem que pode ver esses seres sobrenaturais. Ele é o caçador de ghoul, um homem que se dedica a caçar essas criaturas e proteger a humanidade.  Ele é o nosso protagonista, um homem com um passado misterioso e uma determinação férrea.Ele se chama Ken Kaneki, e sua história começa neste mundo de contrastes, onde a luz e a escuridão se entrelaçam em uma dança eterna."
+            <p class="prologo">"A cidade de Tóquio é um lugar de contrastes, onde a luz e a escuridão coexistem em harmonia. É uma cidade de tecnologia avançada, mas também de tradições ancestrais. É uma cidade de contrastes, onde o mundo humano e o mundo sobrenatural se entrelaçam. E neste mundo de contrastes, há uma criatura que habita a escuridão, um ser que se esconde da luz do sol e se move na sombra. É o Ghoul, uma espécie de ser sobrenatural que se alimenta de carne humana. Eles vivem entre nós, mas são invisíveis aos olhos humanos. Mas há um homem que pode ver esses seres sobrenaturais. Ele é o caçador de ghoul, um homem que se dedica a caçar essas criaturas e proteger a humanidade. Ele é o nosso protagonista, um homem com um passado misterioso e uma determinação férrea. Ele se chama Ken Kaneki, e sua história começa neste mundo de contrastes, onde a luz e a escuridão se entrelaçam em uma dança eterna."
             </p>
             <picture>
-                <source media="(max-width: 800px )" srcset="imagem/DISTRITO20MOBILE.jpg">
-                <img id="distrito20" src="imagem/DISTRITO20.webp" alt="" />
+                <source media="(max-width: 800px )" srcset="/imagem/DISTRITO20MOBILE.jpg">
+                <img id="distrito20" src="/imagem/DISTRITO20.webp" alt="" />
             </picture>
             
             <h2 class="titulo02">Enredo</h2>
@@ -63,7 +64,7 @@
             <p class="prologo" >"O edifício da Comissão Contador de Ghoul (CCG) encontra-se bem situado no distrito, perto do centro. Nos arredores deste edifício não costumam haver acidentes relacionados com Ghouls, já que estes tentam evita-lo. Mesmo que quisessem, Ghouls eram incapazes de se infiltrarem no edifício, pois há sensores de RC nas entradas deste. O Café Tengoku é localizado no centro do distrito. É um local calmo e agradável, aparentemente inofensivo.
                 Na realidade, Tengoku é um refúgio de Ghoul. Este é liderado por uma organização, apenas composta por Ghoul, que gere o café, fingindo-se de meros humanos. O prédio é composto por dois andares. O superior (apenas permitida a entrada a membros da organização) possui um conjunto de quartos e uma sala de estar, onde os membros se reunem. A clientela deste café é bastante abranjente, sendo frequentado tanto por Ghouls como por Humanos."
             </p>
-            <img id="anteiku" src="imagem/ANTEIKU.jpg" alt="">
+            <img id="anteiku" src="/imagem/ANTEIKU.jpg" alt="">
             <h2 class="titulo02" id="Distrito11" >Distrito11</h2>
             <p class="prologo">
                 "A Aogiri Tree é liderada por um Ghoul conhecido como Eto Yoshimura, também conhecida como "One-Eyed Owl". Mais tarde, descobre-se que Eto é filha de Yoshimura, o proprietário do café Anteiku. A organização acredita na superioridade dos Ghouls sobre os humanos e busca alcançar a supremacia Ghoul na sociedade. Seus métodos são notoriamente violentos e extremos, incluindo ataques a humanos e a CCG, bem como experimentos com Ghouls e humanos."
@@ -71,41 +72,64 @@
             </p>
             <picture>
                 <source id="aogiri" media="(max-width: 800px )" srcset="/imagem/AogiriMobile.jpg">
-                <img id="aogiri" src="imagem/aogiri.jpg" alt="">
+                <img id="aogiri" src="/imagem/aogiri.jpg" alt="">
             </picture>
             
             <h2 class="titulo02" id="Distrito13"> Distrito13</h2>
     
-            <p class="prologo">"O Distrito 13, também conhecido como "Distrito Sumida", é um local envolto em mistério e perigo em Tokyo Ghoul. Envolto em névoa constante, o distrito se torna um refúgio para ghouls que desejam evitar a detecção da CCG (Comissão de Contramedidas Ghoul). Personagens Relevantes: Nishiki Nishio: Ghoul frequentador do Anteiku que guia Kaneki pelo Distrito 13. Yamori: Ghoul sádico que tortura Kaneki no 11º Distrito, mas tem uma breve aparição no 13º.
-            Shuu Tsukiyama: Ghoul Gourmet que se interessa por Kaneki e o confronta no Distrito 13."
+            <p class="prologo">"O Distrito 13, também conhecido como "Distrito Sumida", é um local envolto em mistério e perigo em Tokyo Ghoul. Envolto em névoa constante, o distrito se torna um refúgio para ghouls que desejam evitar a detecção da CCG (Comissão de Contramedidas Ghoul). 
             </p>
-                <img id="distritos" src="imagem/DISTRITOS.png" alt="imagem/DISTRITOS.png">
-                <h2 class="titulo02"> Personagens e Eventos Importantes</h2>
+                <img id="distritos" src="/imagem/DISTRITOS.png" alt="/imagem/DISTRITOS.png">
+                <h2 class="titulo02" id="personagens2"> Personagens e Eventos Importantes</h2>
+                <p id="personagens" class="prologo"><strong> Personagens: </strong></p>
                 <p class="prologo">
-                Personagens:
-                Ken Kaneki: Protagonista da história, um humano que se torna Ghoul.Touka Kirishima: Ghoul que trabalha na Anteiku e amiga de Ken.Nishiki Nishio: Ghoul que se torna amigo de Ken.Hinami Fueguchi: Ghoul que é protegida por Ken.Kishou Arima: Investigador da CCG e antagonista da história.Eventos:
-                Ataque de Rize Kamishiro: Evento que transforma Ken em Ghoul.Reunião de Investigadores de Classe Especial: Reunião para discutir a ameaça dos Ghouls.Ataque à Anteiku: Ataque da CCG à cafeteria Anteiku.Operação Quinx: Operação da CCG para criar Ghoul artificiais.Banquete dos Ghouls: Evento organizado por Tsukiyama para Ghouls.Leilão de Ghoul: Leilão onde Ghouls são vendidos como objetos.Tortura de Kaneki: Tortura que Kaneki sofre nas mãos de Yamori.Invasão da Cochlea: Invasão da prisão Ghoul por parte da CCG.
+                <strong id="negrito">Ken Kaneki:</strong> Protagonista da história, um humano que se torna Ghoul.
+                <br><br>
+                <strong id="negrito">Touka Kirishima:</strong> Ghoul que trabalha na Anteiku e amiga de Ken.
+                <br><br><strong id="negrito">Yamori:</strong>  Ghoul sádico que tortura Kaneki no 11º Distrito, mas tem uma breve aparição no 13º.
+                <br><br>
+                <strong id="negrito">Nishiki Nishio:</strong> Ghoul que se torna amigo de Ken.
+                <br><br>
+                <strong id="negrito">Hinami Fueguchi:</strong> Ghoul que é protegida por Ken.
+                <br><br>
+                <strong id="negrito">Kishou Arima:</strong> Investigador da CCG e antagonista da história.
+                <br><br><strong id="negrito">Shuu Tsukiyama:</strong> Ghoul Gourmet que se interessa por Kaneki e o confronta no Distrito 13."
+                <br><br>
+                <strong>Eventos:</strong>
+                <br>
+                <strong id="negrito">Ataque de Rize Kamishiro:</strong> Evento que transforma Ken em Ghoul.
+                <br><strong id="negrito">Reunião de Investigadores de Classe Especial:</strong> Reunião para discutir a ameaça dos Ghouls.
+                <br><strong id="negrito">Ataque à Anteiku:</strong> Ataque da CCG à cafeteria Anteiku.Operação Quinx: Operação da CCG para criar Ghoul artificiais.
+                <br><strong id="negrito">Banquete dos Ghouls:</strong> Evento organizado por Tsukiyama para Ghouls.
+                <br><strong id="negrito">Leilão de Ghoul:</strong> Leilão onde Ghouls são vendidos como objetos.
+                <br>
+                <strong id="negrito">Tortura de Kaneki:</strong> Tortura que Kaneki sofre nas mãos de Yamori.Invasão da Cochlea: Invasão da prisão Ghoul por parte da CCG.
                 </p>
-                
-          
+                <h2 class="titulo02" id="Distrito24" >Distrito24</h2>
+                <p class="prologo">O Distrito 24 (Nijūyon-ku?) é um distrito de Tóquio, típico do universo Tokyo Ghoul, como tal não representa nenhum dos 23 Distritos   Especiais da Prefeitura de Tóquio.
+                    Este distrito abrange as partes mais profundas que os Ghouls atacaram no passado. Características especiais foram apontadas, por exemplo, Touka Kirishima disse que é o Distrito mais horrível entre todos os outros, devido à diferença considerável entre humanos e ghouls.
+                    Este distrito é composto por inúmeros túneis e passagens subterrâneas que parecem labirintos, por si só, o próprio distrito poderia ser considerado um labirinto gigante, sabe-se que é construído a partir de ruínas e lixo e até agora não se sabe a profundidade desses túneis são, embora Shuu Tsukiyama mencione que com a chegada de Black Goat, os carniçais residentes cavaram e foram ainda mais fundo.
+                </p>
+                <h2 class="titulo02">Carniçais Do Distrito</h2> 
+                <p class="prologo">Muito pouco se sabe sobre os verdadeiros moradores deste distrito, porém diz-se que ele foi formado e construído pelos ghouls que seguiram o One-Eyed Ghoul do Distrito 24, após sua subsequente derrota há mais de 100 anos nas mãos do Clã Washuu, de acordo com aqueles ditos por Nishiki Nishio são carniçais "brutos" que comem qualquer coisa, seja um carniçal ou não, também é mencionado que eles "esperam pela oportunidade de se vingar dos humanos".</p>
+                  
         </div>
-    
-        <!-- ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+        <!--------------------------------------------------------------------------------------->
     
             <div id="direita" class="box"><!--div da direita -->
                 
                 <div><!--div imagem -->
                     <picture>
-                        <source class="imgd" media="(max-width: 1550px )" srcset="imagem/VL1P.jpg">
-                        <img id="MangaCap1" class="imgd" src="imagem/VL1G.jpg" alt="Capa Manga">
+                        <source class="imgd" media="(max-width: 1550px )" srcset="/imagem/VL1P.jpg">
+                        <img id="MangaCap1" class="imgd" src="/imagem/VL1G.jpg" alt="Capa Manga">
                     </picture>
                     <picture>
-                        <source class="imgd" media="(max-width: 1550px )" srcset="imagem/VL5P.jpg">
-                        <img id="MangaCap5" class="imgd" src="imagem/VL5G.jpg" alt="Capa Manga">
+                        <source class="imgd" media="(max-width: 1550px )" srcset="/imagem/VL5P.jpg">
+                        <img id="MangaCap5" class="imgd" src="/imagem/VL5G.jpg" alt="Capa Manga">
                     </picture>
                     <picture>
-                        <source class="imgd" media="(max-width: 1550px )" srcset="imagem/VL7P.png">
-                        <img id="MangaCap7" class="imgd" src="imagem/VL7G.png" alt="Capa Manga">
+                        <source class="imgd" media="(max-width: 1550px )" srcset="/imagem/VL7P.png">
+                        <img id="MangaCap7" class="imgd" src="/imagem/VL7G.png" alt="Capa Manga">
                     </picture>
                 </div>
             </div>
